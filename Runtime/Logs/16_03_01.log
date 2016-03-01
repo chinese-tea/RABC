@@ -2310,3 +2310,371 @@
 [ 2016-03-01T17:08:13+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
 [ 2016-03-01T17:08:13+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
 [ 2016-03-01T17:08:13+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Run CheckRoute Behavior [ RunTime:0.019001s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.022002s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `role` [ RunTime:0.008000s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `authority` [ RunTime:0.010001s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | SQL: SELECT * FROM `authority`  [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --START--
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Run LocationTemplate Behavior [ RunTime:0.013001s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.013001s ]
+[ 2016-03-01T20:50:00+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --START--
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Run ParseTemplate Behavior [ RunTime:0.040002s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.040002s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --START--
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --START--
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.005001s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.005001s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | ERR: (ThinkException) 非法操作Public
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 72 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 73 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [2] file() [<a href='function.file'>function.file</a>]: Filename cannot be empty ThinkException.class.php 第 74 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:01+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `role` [ RunTime:0.008001s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `authority` [ RunTime:0.006000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | SQL: SELECT * FROM `authority`  [ RunTime:0.000000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --START--
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --START--
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run ParseTemplate Behavior [ RunTime:0.013001s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013001s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --START--
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --START--
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | ERR: (ThinkException) 非法操作Public
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 72 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 73 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [2] file() [<a href='function.file'>function.file</a>]: Filename cannot be empty ThinkException.class.php 第 74 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T20:50:02+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `role` [ RunTime:0.008001s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `authority` [ RunTime:0.010001s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | SQL: SELECT * FROM `authority`  [ RunTime:0.000000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --START--
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --START--
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run ParseTemplate Behavior [ RunTime:0.013000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --START--
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run ContentReplace Behavior [ RunTime:0.001001s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003001s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --START--
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | ERR: (ThinkException) 非法操作Public
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 72 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 73 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [2] file() [<a href='function.file'>function.file</a>]: Filename cannot be empty ThinkException.class.php 第 74 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:36:39+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002001s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `role` [ RunTime:0.017001s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `authority` [ RunTime:0.014001s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | SQL: SELECT * FROM `authority`  [ RunTime:0.001000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --START--
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --START--
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Run ParseTemplate Behavior [ RunTime:0.021001s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021001s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --START--
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006000s ]
+[ 2016-03-01T21:38:29+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --START--
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | ERR: (ThinkException) 非法操作Public
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.004000s ]
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 72 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 73 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [2] file() [<a href='function.file'>function.file</a>]: Filename cannot be empty ThinkException.class.php 第 74 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:38:30+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `role` [ RunTime:0.008000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `authority` [ RunTime:0.007001s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | SQL: SELECT * FROM `authority`  [ RunTime:0.000000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --START--
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --START--
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run ParseTemplate Behavior [ RunTime:0.014001s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014001s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --START--
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --START--
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | ERR: (ThinkException) 非法操作Public
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001001s ]
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 72 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 73 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [2] file() [<a href='function.file'>function.file</a>]: Filename cannot be empty ThinkException.class.php 第 74 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:26+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `role` [ RunTime:0.011000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `authority` [ RunTime:0.008001s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | SQL: SELECT * FROM `authority`  [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --START--
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --START--
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.012001s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --START--
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --START--
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | ERR: (ThinkException) 非法操作Public
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run CheckRoute Behavior [ RunTime:0.005001s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.005001s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 72 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 73 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [2] file() [<a href='function.file'>function.file</a>]: Filename cannot be empty ThinkException.class.php 第 74 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:39:53+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `role` [ RunTime:0.008001s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `authority` [ RunTime:0.008000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | SQL: SELECT * FROM `authority`  [ RunTime:0.000000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --START--
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --START--
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run ParseTemplate Behavior [ RunTime:0.014001s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014001s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --START--
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --START--
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | ERR: (ThinkException) 非法操作Public
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.002001s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 72 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 73 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [2] file() [<a href='function.file'>function.file</a>]: Filename cannot be empty ThinkException.class.php 第 74 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:45:58+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.002001s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `role` [ RunTime:0.008000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | SQL: SHOW COLUMNS FROM `authority` [ RunTime:0.011001s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | SQL: SELECT * FROM `authority`  [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --START--
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --START--
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run ParseTemplate Behavior [ RunTime:0.014001s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014001s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --START--
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --START--
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | ERR: (ThinkException) 非法操作Public
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --START--
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --START--
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 72 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 73 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [2] file() [<a href='function.file'>function.file</a>]: Filename cannot be empty ThinkException.class.php 第 74 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: file ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: line ThinkException.class.php 第 78 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: class ThinkException.class.php 第 79 行.
+[ 2016-03-01T21:46:19+08:00 ] /index.php/Admin/Role//Public/Images/content_bg.gif | NOTIC: [8] Undefined index: type ThinkException.class.php 第 79 行.

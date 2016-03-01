@@ -4,14 +4,18 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/skin.css" />
         <script  type="text/javascript" src='__PUBLIC__/Js/jquery.js' ></script>
-        <script>
-            $(function(){
-                $('input[type=checkbox]').click(function(){
-                    var cbid=$(this).attr('id');
-                    alert(cbid);
-                });
-            });
-        </script>
+<script>
+    $(function(){
+        $('input[type=checkbox]').click(function(){
+            var cbid=$(this).attr('id');
+            if($(this).attr('checked')){
+                $('input[pid='+cbid+']').attr("checked","checked");
+            }else{
+                $('input[pid='+cbid+']').attr("checked",false);
+            }
+        });
+    });
+</script>
     </head>
     <body>
         <table width="100%" border="0" cellpadding="0" cellspacing="0">
