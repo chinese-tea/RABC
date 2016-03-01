@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -59,12 +59,10 @@
                                                         <th>栏目名称</th>
                                                         <th>操作</th>
                                                     </tr>
-                                                    <volist name='catlist' id='vo'>
-                                                    <tr align="center" class="d">
-                                                        <td>{$vo.level|str_repeat='&nbsp;&nbsp;&nbsp;',###*5}{$vo.name}</td>
+                                                    <?php if(is_array($catlist)): $i = 0; $__LIST__ = $catlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr align="center" class="d">
+                                                        <td><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"]*5)); echo ($vo["name"]); ?></td>
                                                         <td>编辑 删除 内容管理</td>
-                                                    </tr>
-                                                    </volist>
+                                                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                                                 </table>
                                             </form>
                                         </td>

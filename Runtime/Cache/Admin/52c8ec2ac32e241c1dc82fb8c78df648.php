@@ -1,8 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/skin.css" />
+        <script  type="text/javascript" src='__PUBLIC__/Js/jquery.js' ></script>
+        <script>
+            $(function(){
+                $('input[type=checkbox]').click(function(){
+                    var cbid=$(this).attr('id');
+                    alert(cbid);
+                });
+            });
+        </script>
     </head>
     <body>
         <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -13,7 +22,7 @@
                 </td>
                 <td valign="top" background="__PUBLIC__/Images/content_bg.gif">
                     <table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" background="./__PUBLIC__/Images/content_bg.gif">
-                        <tr><td height="31"><div class="title">添加栏目</div></td></tr>
+                        <tr><td height="31"><div class="title">添加角色</div></td></tr>
                     </table>
                 </td>
                 <td width="16" valign="top" background="__PUBLIC__/Images/mail_right_bg.gif"><img src="__PUBLIC__/Images/nav_right_bg.gif" width="16" height="29" /></td>
@@ -32,7 +41,7 @@
                                 <table>
                                     <tr>
                                         <td width="100" align="center"><img src="__PUBLIC__/Images/mime.gif" /></td>
-                                        <td valign="bottom"><h3 style="letter-spacing:1px;">添加栏目</h3></td>
+                                        <td valign="bottom"><h3 style="letter-spacing:1px;">添加角色</h3></td>
                                     </tr>
                                 </table>
                             </td>
@@ -56,20 +65,18 @@
                                                 <table width="100%" class="cont">
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
-                                                        <td>栏目名称：</td>
+                                                        <td>角色名称：</td>
                                                         <td width="20%"><input class="text" type="text" name="name" value="" /></td>
                                                         <td></td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td>&nbsp;</td>
-                                                        <td>上级栏目：</td>
+                                                        <td>上级角色：</td>
                                                         <td>
                                                             <select name="pid">
-                                                                <option value="0">顶级栏目</option>
-                                                                <volist name="catlist" id="vo">
-                                                                <option value="{$vo.id}">{$vo.level|str_repeat='&nbsp;&nbsp;&nbsp;',###}{$vo.name}</option>
-                                                                </volist>
+                                                                <option value="0">顶级角色</option>
+                                                                <?php if(is_array($catlist)): $i = 0; $__LIST__ = $catlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>"><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"])); echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                                                             </select>
                                                         </td>
                                                         <td></td>
@@ -77,15 +84,15 @@
                                                     </tr>
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
-                                                        <td>控制器名称：</td>
-                                                        <td width="20%"><input class="text" type="text" name="action" value="" /></td>
-                                                        <td></td>
-                                                        <td width="2%">&nbsp;</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td width="2%">&nbsp;</td>
-                                                        <td>方法名称：</td>
-                                                        <td width="20%"><input class="text" type="text" name="function" value="" /></td>
+                                                        <td>拥有的权限：</td>
+                                                        <td width="20%">
+                                                            <table>
+                                                                <?php if(is_array($catlist)): $i = 0; $__LIST__ = $catlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                                                        <td><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"]*2)); echo ($vo["name"]); ?></td>
+                                                                        <td>&nbsp;&nbsp;&nbsp;<input id='<?php echo ($vo["id"]); ?>' pid='<?php echo ($vo["pid"]); ?>' type='checkbox' /></td>
+                                                                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                                                            </table>
+                                                        </td>
                                                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
