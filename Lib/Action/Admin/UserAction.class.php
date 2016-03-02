@@ -1,15 +1,18 @@
 <?php
 
-class UserAction extends Action {
+class UserAction extends AdminAction {
 
     function login() {
         if (isset($_POST['submit'])) {
             if(session('verify')==md5($_POST['verify'])) {
-                $user = M('User');
-                $user=$user->where ("username='{$_POST['username']}'")->find();
+                $user = D('User');
+                $user=$user->relation(TRUE)->where ("username='{$_POST['username']}'")->find();
+            
                 if($user['password']==$_POST['password']) {
                     session('userid',$user['id']);
                     session('username',$user['username']);
+                    //用户权限
+                    session('author',$user['Role']['author']);
                     $this->success('登录成功', __GROUP__.'/Index/index');
                 } else {
                    $this->error('用户名或密码错误'); 

@@ -4,18 +4,47 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/skin.css" />
         <script  type="text/javascript" src='__PUBLIC__/Js/jquery.js' ></script>
-<script>
-    $(function(){
-        $('input[type=checkbox]').click(function(){
-            var cbid=$(this).attr('id');
-            if($(this).attr('checked')){
-                $('input[pid='+cbid+']').attr("checked","checked");
-            }else{
-                $('input[pid='+cbid+']').attr("checked",false);
+        <script>
+            $(function () {
+                $('input[type=checkbox]').click(function () {
+                    var cbid = $(this).attr('id');
+                    checked('input[type=checkbox]', cbid);
+                });
+
+                $('select[name=pRole').change(function () {
+                    var pRoleId = $(this).val();
+                    $.post('__URL__/getAuthor', {id: pRoleId}, function (data) {
+                        $('input[type=checkbox]').attr("checked", false);
+                        $(data.data).each(function (i, v) {
+                            $('input[id='+v+']').attr("checked", "checked");
+                        });
+                    }, 'json');
+                });
+            });
+
+            /*
+             * 递归将子checkbox全选或取消
+             * cb  : checkbox集
+             * pid : 选中的id  
+             */
+            function checked(cb, pid) {
+                $(cb).each(function (i, v) {
+                    var childPid = $(v).attr('pid');
+                    var childId = $(v).attr('id');
+
+                    if (childPid == pid) {
+                        //递归全选
+                        checked(cb, childId);
+
+                        if ($(v).attr('checked')) {
+                            $(v).attr("checked", false);
+                        } else {
+                            $(v).attr("checked", "checked");
+                        }
+                    }
+                });
             }
-        });
-    });
-</script>
+        </script>
     </head>
     <body>
         <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -78,9 +107,9 @@
                                                         <td>&nbsp;</td>
                                                         <td>上级角色：</td>
                                                         <td>
-                                                            <select name="pid">
+                                                            <select name="pRole" >
                                                                 <option value="0">顶级角色</option>
-                                                                <?php if(is_array($catlist)): $i = 0; $__LIST__ = $catlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>"><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"])); echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                                                <?php if(is_array($rolelist)): $i = 0; $__LIST__ = $rolelist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>"><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"])); echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                                                             </select>
                                                         </td>
                                                         <td></td>
@@ -93,7 +122,7 @@
                                                             <table>
                                                                 <?php if(is_array($catlist)): $i = 0; $__LIST__ = $catlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                                                         <td><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"]*2)); echo ($vo["name"]); ?></td>
-                                                                        <td>&nbsp;&nbsp;&nbsp;<input id='<?php echo ($vo["id"]); ?>' pid='<?php echo ($vo["pid"]); ?>' type='checkbox' /></td>
+                                                                        <td>&nbsp;&nbsp;&nbsp;<input name="author[]" value="<?php echo ($vo["id"]); ?>" id='<?php echo ($vo["id"]); ?>' pid='<?php echo ($vo["pid"]); ?>' type='checkbox' /></td>
                                                                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                                                             </table>
                                                         </td>
