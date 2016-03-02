@@ -1,6 +1,6 @@
 <?php
 
-class AuthorityAction extends Action {
+class AuthorityAction extends AdminAction {
 
     function index() {
         $author = M('Authority');

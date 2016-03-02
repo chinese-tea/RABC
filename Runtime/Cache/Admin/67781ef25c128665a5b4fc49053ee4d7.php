@@ -30,90 +30,9 @@
         <tr>
             <td width="182" valign="top">
                 <div id="container">
-                    <h1 class="type"><a href="javascript:void(0)">网站栏目</a></h1>
-                    <div class="content">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td><img src="__PUBLIC__/Images/menu_top_line.gif" width="182" height="5" /></td>
-                            </tr>
-                        </table>
-                        <ul class="RM">
-                            <li><a href="./cat_add.html" target="main">添加栏目</a></li>
-                            <li><a href="./cat_manage.html" target="main">栏目管理</a></li>
-                        </ul>
-                    </div>
-                    <h1 class="type"><a href="javascript:void(0)">产品管理</a></h1>
-                    <div class="content">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td><img src="__PUBLIC__/Images/menu_top_line.gif" width="182" height="5" /></td>
-                            </tr>
-                        </table>
-                        <ul class="RM">
-                            <li><a href="./goods_sort.html" target="main">产品分类</a></li>
-                            <li><a href="./goods_add.html" target="main">添加产品</a></li>
-                            <li><a href="./goods_list.html" target="main">产品列表</a></li>
-                        </ul>
-                    </div>
-                    <h1 class="type"><a href="javascript:void(0)">订单管理</a></h1>
-                    <div class="content">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td><img src="__PUBLIC__/Images/menu_top_line.gif" width="182" height="5" /></td>
-                            </tr>
-                        </table>
-                        <ul class="RM">
-                            <li><a href="./order_1.html" target="main">待处理订单</a></li>
-                            <li><a href="./order_2.html" target="main">处理中订单</a></li>
-                            <li><a href="./order_3.html" target="main">已发货订单</a></li>
-                            <li><a href="./order_4.html" target="main">已完成订单</a></li>
-                        </ul>
-                    </div>
-                    <!-- *********** -->
-                    <h1 class="type"><a href="javascript:void(0)">会员管理</a></h1>
-                    <div class="content">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td><img src="__PUBLIC__/Images/menu_top_line.gif" width="182" height="5" /></td>
-                            </tr>
-                        </table>
-                        <ul class="RM">
-                            <li><a href="./mem_reg.html" target="main">注册设置</a></li>
-                            <li><a href="./mem_chk.html" target="main">审核设置</a></li>
-                            <li><a href="./mem_add.html" target="main">添加会员</a></li>
-                            <li><a href="./mem_list.html" target="main">会员管理</a></li>
-                        </ul>
-                    </div>
-                    <h1 class="type"><a href="javascript:void(0)">系统设置</a></h1>
-                    <div class="content">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td><img src="__PUBLIC__/Images/menu_top_line.gif" width="182" height="5" /></td>
-                            </tr>
-                        </table>
-                        <ul class="RM">
-                            <li><a href="./sys.html" target="main">网站设置</a></li>
-                            <li><a href="./admin.html" target="main">管理员设置</a></li>
-                            <li><a href="javascript:void(0)" target="main">模板设置</a></li>
-                        </ul>
-                    </div>
-                    <!-- *********** -->
-                    <h1 class="type"><a href="javascript:void(0)">其它设置</a></h1>
-                    <div class="content">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td><img src="__PUBLIC__/Images/menu_top_line.gif" width="182" height="5" /></td>
-                            </tr>
-                        </table>
-                        <ul class="RM">
-                            <li><a href="javascript:void(0)" target="main">友情连接</a></li>
-                            <li><a href="javascript:void(0)" target="main">在线留言</a></li>
-                            <li><a href="javascript:void(0)" target="main">网站投票</a></li>
-                            <li><a href="javascript:void(0)" target="main">邮箱设置</a></li>
-                            <li><a href="javascript:void(0)" target="main">图片上传</a></li>
-                        </ul>
-                    </div>
-                    <!-- *********** -->
+                    
+                    <?php echo ($list); ?>
+                    
                 </div>
             </td>
         </tr>
