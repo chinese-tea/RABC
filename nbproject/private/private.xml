@@ -4,19 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/www/RABC/Tpl/Admin/User/login.html</file>
-            <file>file:/D:/www/RABC/Lib/Action/Admin/RoleAction.class.php</file>
-            <file>file:/D:/www/RABC/Lib/Action/Common/CommonAction.class.php</file>
-            <file>file:/D:/www/RABC/Lib/Action/Admin/UserAction.class.php</file>
-            <file>file:/D:/www/RABC/Lib/Action/Admin/IndexAction.class.php</file>
-            <file>file:/D:/www/RABC/Conf/config.php</file>
-            <file>file:/D:/www/RABC/Tpl/Admin/Role/add.html</file>
-            <file>file:/D:/www/RABC/Tpl/Admin/Authority/add.html</file>
             <file>file:/D:/www/RABC/ThinkPHP/Conf/convention.php</file>
-            <file>file:/D:/www/RABC/index.php</file>
-            <file>file:/D:/www/RABC/Tpl/Admin/Authority/index.html</file>
-            <file>file:/D:/www/RABC/ThinkPHP/Extend/Engine/Sae/Lib/Extend/Library/ORG/Util/Image_sae.class.php</file>
+            <file>file:/D:/www/RABC/Lib/Action/Admin/IndexAction.class.php</file>
+            <file>file:/D:/www/RABC/Lib/Action/Common/AdminAction.class.php</file>
             <file>file:/D:/www/RABC/Lib/Action/Admin/AuthorityAction.class.php</file>
-            <file>file:/D:/www/RABC/Common/common.php</file>
         </group>
     </open-files>
 </project-private>
