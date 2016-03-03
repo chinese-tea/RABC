@@ -5,9 +5,7 @@
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/skin.css" />
     <script type="text/javascript">
         function logout() {
-            if(window.confirm('您确定要退出吗？')) {
-                top.location = 'login.html';
-            }
+                top.location = '__GROUP__/User/logout';
         }       
     </script>
 </head>

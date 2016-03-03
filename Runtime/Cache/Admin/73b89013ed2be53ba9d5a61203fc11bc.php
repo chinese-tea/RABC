@@ -13,7 +13,7 @@
                 </td>
                 <td valign="top" background="__PUBLIC__/Images/content_bg.gif">
                     <table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" background="./__PUBLIC__/Images/content_bg.gif">
-                        <tr><td height="31"><div class="title">添加栏目</div></td></tr>
+                        <tr><td height="31"><div class="title">修改栏目</div></td></tr>
                     </table>
                 </td>
                 <td width="16" valign="top" background="__PUBLIC__/Images/mail_right_bg.gif"><img src="__PUBLIC__/Images/nav_right_bg.gif" width="16" height="29" /></td>
@@ -32,7 +32,7 @@
                                 <table>
                                     <tr>
                                         <td width="100" align="center"><img src="__PUBLIC__/Images/mime.gif" /></td>
-                                        <td valign="bottom"><h3 style="letter-spacing:1px;">添加栏目</h3></td>
+                                        <td valign="bottom"><h3 style="letter-spacing:1px;">修改栏目</h3></td>
                                     </tr>
                                 </table>
                             </td>
@@ -57,7 +57,7 @@
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
                                                         <td>栏目名称：</td>
-                                                        <td width="20%"><input class="text" type="text" name="name" value="" /></td>
+                                                        <td width="20%"><input class="text" type="text" name="name" value="<?php echo ($data["name"]); ?>" /></td>
                                                         <td></td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
@@ -67,7 +67,7 @@
                                                         <td>
                                                             <select name="pid">
                                                                 <option value="0">顶级栏目</option>
-                                                                <?php if(is_array($catlist)): $i = 0; $__LIST__ = $catlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>"><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"])); echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                                                <?php if(is_array($catlist)): $i = 0; $__LIST__ = $catlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>" <?php if($vo['id'] == $data['pid']): ?>selected="selected"<?php endif; ?>><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"])); echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                                                             </select>
                                                         </td>
                                                         <td></td>
@@ -77,10 +77,10 @@
                                                         <td width="2%">&nbsp;</td>
                                                         <td>是否显示：</td>
                                                         <td width="10%">
-                                                            是<input class="text" type="radio" name="show" value="1" checked="checked"/>  
+                                                            是<input class="text" type="radio" name="show" value="1" <?php if($data['show'] == 1): ?>checked="checked"<?php endif; ?>/>  
                                                         </td>
                                                         <td width="10%">
-                                                            否<input class="text" type="radio" name="show" value="0" />
+                                                            否<input class="text" type="radio" name="show" value="0" <?php if($data['show'] == 0): ?>checked="checked"<?php endif; ?>/>
                                                         </td>
                                                         <td></td>
                                                         <td width="2%">&nbsp;</td>
@@ -88,20 +88,21 @@
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
                                                         <td>控制器名称：</td>
-                                                        <td width="20%"><input class="text" type="text" name="action" value="" /></td>
+                                                        <td width="20%"><input class="text" type="text" name="action" value="<?php echo ($data["action"]); ?>" /></td>
                                                         <td></td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
                                                         <td>方法名称：</td>
-                                                        <td width="20%"><input class="text" type="text" name="function" value="" /></td>
+                                                        <td width="20%"><input class="text" type="text" name="function" value="<?php echo ($data["function"]); ?>" /></td>
                                                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td>&nbsp;</td>
-                                                        <td colspan="3"><input class="btn" type="submit" name="submit" value="提交" /></td>
+                                                        <input type="hidden" name="id" value="<?php echo ($id); ?>" />
+                                                        <td colspan="3"><input class="btn" type="submit" name="submit" value="修改" /></td>
                                                         <td>&nbsp;</td>
                                                     </tr>
                                                 </table>

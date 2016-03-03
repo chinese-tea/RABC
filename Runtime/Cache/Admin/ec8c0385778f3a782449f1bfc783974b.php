@@ -61,7 +61,7 @@
                                                     </tr>
                                                     <?php if(is_array($catlist)): $i = 0; $__LIST__ = $catlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr align="center" class="d">
                                                         <td><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;',$vo["level"]*5)); echo ($vo["name"]); ?></td>
-                                                        <td>编辑 删除 内容管理</td>
+                                                        <td><a href="__URL__/edit/id/<?php echo ($vo["id"]); ?>">编辑</a> <a href="__URL__/del/id/<?php echo ($vo["id"]); ?>">删除</a></td>
                                                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                                                 </table>
                                             </form>

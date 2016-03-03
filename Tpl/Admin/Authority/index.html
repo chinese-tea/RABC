@@ -60,9 +60,9 @@
                                                         <th>操作</th>
                                                     </tr>
                                                     <volist name='catlist' id='vo'>
-                                                    <tr align="center" class="d">
+                                                        <tr align="center" class="d">
                                                         <td>{$vo.level|str_repeat='&nbsp;&nbsp;&nbsp;',###*5}{$vo.name}</td>
-                                                        <td>编辑 删除 内容管理</td>
+                                                        <td><a href="__URL__/edit/id/{$vo.id}">编辑</a> <a href="__URL__/del/id/{$vo.id}">删除</a></td>
                                                     </tr>
                                                     </volist>
                                                 </table>

@@ -9,6 +9,7 @@ function tree($data, $pid = 0) {
                 'id' => $v['id'],
                 'name' => $v['name'],
                 'pid' => $v['pid'],
+                'show' => $v['show'],
                 'child' => tree($data, $v['id'])
             );
         }
@@ -25,6 +26,7 @@ function formatTree($data,$level=0){
                 'id'=>$v['id'],
                 'name'=>$v['name'],
                 'pid' => $v['pid'],
+                 'show' => $v['show'],
                 'level'=>$level,
             );
             formatTree($v['child'],$level+1);
@@ -34,6 +36,7 @@ function formatTree($data,$level=0){
                 'id'=>$v['id'],
                 'name'=>$v['name'],
                 'pid' => $v['pid'],
+                'show' => $v['show'],
                 'level'=>$level,
             );
         }

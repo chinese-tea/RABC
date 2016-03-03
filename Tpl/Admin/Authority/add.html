@@ -68,12 +68,24 @@
                                                             <select name="pid">
                                                                 <option value="0">顶级栏目</option>
                                                                 <volist name="catlist" id="vo">
-                                                                <option value="{$vo.id}">{$vo.level|str_repeat='&nbsp;&nbsp;&nbsp;',###}{$vo.name}</option>
+                                                                    <option value="{$vo.id}">{$vo.level|str_repeat='&nbsp;&nbsp;&nbsp;',###}{$vo.name}</option>
                                                                 </volist>
                                                             </select>
                                                         </td>
                                                         <td></td>
                                                         <td>&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="2%">&nbsp;</td>
+                                                        <td>是否显示：</td>
+                                                        <td width="10%">
+                                                            是<input class="text" type="radio" name="show" value="1" checked="checked"/>  
+                                                        </td>
+                                                        <td width="10%">
+                                                            否<input class="text" type="radio" name="show" value="0" />
+                                                        </td>
+                                                        <td></td>
+                                                        <td width="2%">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
